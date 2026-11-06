@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.env.local
+.vercel
+
+# demo data lives only in the database
+supabase/seed*.sql
+supabase/demo/

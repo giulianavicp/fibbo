@@ -1,0 +1,9 @@
+<div style="font-family:Inter,Arial,sans-serif;max-width:480px;margin:0 auto;padding:32px 24px;color:#2E2A26">
+  <h1 style="color:#8C421B;font-size:24px;margin:0 0 4px">Fibbo</h1>
+  <p style="color:#8A817A;font-size:13px;margin:0 0 28px">Plataforma de Apoio ao Ensino com IA</p>
+  <h2 style="font-size:18px;margin:0 0 12px">Redefinir senha</h2>
+  <p style="font-size:14px;line-height:1.6;margin:0 0 24px">Recebemos um pedido para redefinir a senha da conta <strong>{{ .Email }}</strong>. Clique no botão abaixo para escolher uma nova senha.</p>
+  <a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#8C421B;color:#fff;text-decoration:none;font-weight:600;font-size:14px;padding:12px 24px;border-radius:10px">Criar nova senha</a>
+  <p style="font-size:12px;color:#8A817A;line-height:1.6;margin:24px 0 0">Se o botão não funcionar, copie e cole este link no navegador:<br><a href="{{ .ConfirmationURL }}" style="color:#8C421B;word-break:break-all">{{ .ConfirmationURL }}</a></p>
+  <p style="font-size:12px;color:#8A817A;line-height:1.6;margin:16px 0 0">Se você não pediu isso, ignore este e-mail. Sua senha continua a mesma. Dúvidas: giuliana.pedrassi@aluno.cps.sp.gov.br</p>
+</div>
